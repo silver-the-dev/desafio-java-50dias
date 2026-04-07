@@ -85,3 +85,38 @@
     - Uso de `Interfaces` para criar os repositórios (ex: `LivroRepository`).
     - Manipulação de Arquivos (NIO2, `FileReader`, `FileWriter` ou `ObjectOutputStream`).
     - Tratamento de Exceções Customizadas (ex: `LivroIndisponivelException`, `LimiteEmprestimoExcedidoException`).
+ 
+## Projeto 2: Analisador de Dados Financeiros em Lote (Foco em Streams, Lambdas e I/O)
+
+Neste projeto, você vai lidar com processamento de dados. Imagine que um banco exportou as movimentações de um cliente em um arquivo CSV gigantesco e precisa de um relatório.
+
+- **O que o sistema deve fazer:**
+    - Ler um arquivo `.csv` simulado com milhares de linhas. Cada linha tem: `ID, Data (dd/MM/yyyy), Descrição, Categoria (Alimentação, Transporte, Salário), Tipo (Receita/Despesa), Valor`.
+    - Você vai carregar esses dados em memória criando uma lista de objetos `Transacao`.
+    - Usando **exclusivamente a Stream API e Lambdas**, o programa deve gerar os seguintes relatórios no console:
+        - Saldo final do período.
+        - Total gasto por Categoria (usando `Collectors.groupingBy`).
+        - Mês com o maior número de despesas.
+        - A transação mais cara do arquivo.
+    - Por fim, o sistema exporta um "Resumo" para um arquivo `.json` (você pode adicionar a biblioteca Gson ou Jackson ao projeto para fazer essa conversão).
+- **Habilidades Comprovadas no GitHub:**
+    - Alta proficiência em Java 8+ (Filters, Maps, Reducers). Isso é **vital** no dia a dia com Spring.
+    - Parseamento de Strings e formatação de `DateTimeFormatter`.
+    - Integração com bibliotecas externas de JSON.
+    - Performance na leitura de arquivos usando `BufferedReader`.
+ 
+## Projeto 3: Servidor de Chat Multithread (Foco em Redes e Concorrência)
+
+Este é o projeto que vai te destacar da maioria dos iniciantes. Você vai construir as bases da comunicação via rede (que o Spring Web faz por você) usando `Sockets` e lidar com a maior dor de cabeça da computação: Concorrência (`Threads`).
+
+- **O que o sistema deve fazer:**
+    - Criar um programa **Servidor** que fica rodando no terminal ouvindo uma porta específica (ex: porta `8080`).
+    - Criar um programa **Cliente** que conecta nesse servidor. O usuário digita seu "Nickname" e entra na sala.
+    - Múltiplos clientes podem conectar ao mesmo tempo. Para que o servidor não trave esperando a mensagem de um, você precisará usar **Threads** (uma thread para cada cliente conectado).
+    - **Broadcast:** Quando o Cliente A manda uma mensagem, o Servidor recebe e repassa para todos os outros Clientes conectados.
+    - **Mensagem Direta (Desafio extra):** Implementar um comando (ex: `/msg Maria Olá!`) para enviar uma mensagem privada apenas para um cliente específico.
+- **Habilidades Comprovadas no GitHub:**
+    - Entendimento profundo de TCP/IP, Sockets, `InputStream` e `OutputStream`.
+    - Domínio de `Threads` e `Runnable` (saber como o Java lida com múltiplas tarefas simultâneas).
+    - Uso de coleções Thread-Safe (ex: usar `ConcurrentHashMap` ou `CopyOnWriteArrayList` para guardar a lista de clientes conectados sem dar erro de acesso simultâneo).
+    - Design Patterns (como o *Observer*, para notificar os clientes).
