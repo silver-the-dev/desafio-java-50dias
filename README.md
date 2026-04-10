@@ -6,7 +6,7 @@
 
 - [x] **1. Fatorial:** Calcule o fatorial de um número usando laço `for` ou `while`.
 - [x] **2. Inversor de String:** Receba uma palavra e imprima ela de trás para frente sem usar métodos prontos como `StringBuilder.reverse()`.
-- [ ] **3. Jogo da Adivinhação:** O programa gera um número aleatório (1-100) e o usuário deve adivinhar. O programa diz se o palpite foi "maior" ou "menor".
+- [x] **3. Jogo da Adivinhação:** O programa gera um número aleatório (1-100) e o usuário deve adivinhar. O programa diz se o palpite foi "maior" ou "menor".
 
 ## 🧬 Módulo 2: Orientação a Objetos - O Básico (Encapsulamento e Composição)
 
