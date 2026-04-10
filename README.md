@@ -10,8 +10,8 @@
 
 ## 🧬 Módulo 2: Orientação a Objetos - O Básico (Encapsulamento e Composição)
 
-- [ ] **4. Classe Pessoa:** Crie uma classe `Pessoa` com atributos privados (nome, idade). Crie os métodos Getters e Setters e impeça que a idade seja negativa.
-- [ ] **5. Conta Bancária:** Crie uma classe `Conta` com `saldo`. Crie métodos para `depositar` e `sacar`. O saque não pode ocorrer se o saldo for insuficiente.
+- [x] **4. Classe Pessoa:** Crie uma classe `Pessoa` com atributos privados (nome, idade). Crie os métodos Getters e Setters e impeça que a idade seja negativa.
+- [x] **5. Conta Bancária:** Crie uma classe `Conta` com `saldo`. Crie métodos para `depositar` e `sacar`. O saque não pode ocorrer se o saldo for insuficiente.
 - [ ] **6. Composição (Carro e Motor):** Crie uma classe `Motor` (cavalos, tipo) e uma classe `Carro` que tenha um atributo do tipo `Motor`.
 - [ ] **7. Sistema de Notas:** Crie uma classe `Aluno` com uma lista de notas. Crie um método que calcule a média e outro que retorne se ele está aprovado (média >= 7).
 - [ ] **8. Sobrecarga de Métodos:** Na classe `Calculadora`, crie múltiplos métodos `somar` (recebendo dois inteiros, três inteiros, e dois double).
