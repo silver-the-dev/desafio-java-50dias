@@ -20,7 +20,7 @@
 
 - [x] **9. Herança Simples:** Crie uma classe mãe `Funcionario` e classes filhas `Gerente` e `Desenvolvedor`.
 - [x] **10. Polimorfismo:** Sobrescreva um método `calcularBonus()` nas classes filhas do exercício anterior. O gerente ganha 20% e o dev 10%.
-- [ ] **11. Interface Tributável:** Crie uma interface `Tributavel` com o método `calcularImposto()`. Implemente-a em classes como `Produto` e `Servico`.
+- [x] **11. Interface Tributável:** Crie uma interface `Tributavel` com o método `calcularImposto()`. Implemente-a em classes como `Produto` e `Servico`.
 - [ ] **12. Classe Abstrata:** Crie uma classe abstrata `FormaGeometrica` com um método abstrato `calcularArea()`. Implemente em `Quadrado` e `Circulo`.
 - [ ] **13. Sistema de Login (Interfaces):** Crie uma interface `Autenticavel` com o método `autenticar(senha)`. Implemente no `Gerente` e em um `Cliente`.
 - [ ] **14. Enumerações (Enums):** Crie um enum `StatusPedido` (PROCESSANDO, ENVIADO, ENTREGUE). Crie uma classe `Pedido` que use esse enum e tenha um método para avançar o status.
