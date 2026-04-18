@@ -14,11 +14,11 @@
 - [x] **5. Conta Bancária:** Crie uma classe `Conta` com `saldo`. Crie métodos para `depositar` e `sacar`. O saque não pode ocorrer se o saldo for insuficiente.
 - [x] **6. Composição (Carro e Motor):** Crie uma classe `Motor` (cavalos, tipo) e uma classe `Carro` que tenha um atributo do tipo `Motor`.
 - [x] **7. Sistema de Notas:** Crie uma classe `Aluno` com uma lista de notas. Crie um método que calcule a média e outro que retorne se ele está aprovado (média >= 7).
-- [ ] **8. Sobrecarga de Métodos:** Na classe `Calculadora`, crie múltiplos métodos `somar` (recebendo dois inteiros, três inteiros, e dois double).
+- [x] **8. Sobrecarga de Métodos:** Na classe `Calculadora`, crie múltiplos métodos `somar` (recebendo dois inteiros, três inteiros, e dois double).
 
 ## 🏗️ Módulo 3: OOP Avançada - Herança, Polimorfismo e Interfaces
 
-- [ ] **9. Herança Simples:** Crie uma classe mãe `Funcionario` e classes filhas `Gerente` e `Desenvolvedor`.
+- [x] **9. Herança Simples:** Crie uma classe mãe `Funcionario` e classes filhas `Gerente` e `Desenvolvedor`.
 - [ ] **10. Polimorfismo:** Sobrescreva um método `calcularBonus()` nas classes filhas do exercício anterior. O gerente ganha 20% e o dev 10%.
 - [ ] **11. Interface Tributável:** Crie uma interface `Tributavel` com o método `calcularImposto()`. Implemente-a em classes como `Produto` e `Servico`.
 - [ ] **12. Classe Abstrata:** Crie uma classe abstrata `FormaGeometrica` com um método abstrato `calcularArea()`. Implemente em `Quadrado` e `Circulo`.
