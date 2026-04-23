@@ -10,5 +10,6 @@ public class App {
         System.out.println("Sem imposto: " + prod.getValorDoProduto());
         prod.setValorDoProduto(prod.getValorDoProduto() + prod.calcularImposto());
         System.out.println("Com imposto: " + prod.getValorDoProduto());
+        System.out.println(prod.getValorDoProduto());
     }
 }
