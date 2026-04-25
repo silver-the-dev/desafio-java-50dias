@@ -32,7 +32,7 @@
 ## 🚨 Módulo 4: Tratamento de Exceções (Preparando para erros de API)
 
 - [x] **19. Try/Catch Básico:** Force um `ArithmeticException` (divisão por zero) e capture a exceção exibindo uma mensagem amigável.
-- [ ] **20. Múltiplos Catches:** Tente converter uma letra para número (`NumberFormatException`) ou acesse um array fora do limite. Capture ambas as exceções.
+- [x] **20. Múltiplos Catches:** Tente converter uma letra para número (`NumberFormatException`) ou acesse um array fora do limite. Capture ambas as exceções.
 - [ ] **21. Bloco Finally:** Simule a abertura e fechamento de um arquivo ou conexão. Garanta que o fechamento ocorra no `finally`.
 - [ ] **22. Exceção Customizada:** Crie uma classe `SaldoInsuficienteException` e lance-a no método `sacar` da sua Conta Bancária.
 - [ ] **23. Lançando Exceções (Throws):** Crie um método que valide um e-mail. Se não tiver "@", use `throw new IllegalArgumentException("E-mail inválido")`.
