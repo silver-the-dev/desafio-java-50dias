@@ -39,7 +39,7 @@
 
 ## 📚 Módulo 5: Collections e Estruturas de Dados
 
-- [ ] **24. Manipulando Listas:** Crie um `ArrayList` de nomes. Adicione, remova, verifique se um nome existe e imprima todos com um laço `for-each`.
+- [x] **24. Manipulando Listas:** Crie um `ArrayList` de nomes. Adicione, remova, verifique se um nome existe e imprima todos com um laço `for-each`.
 - [ ] **25. HashSet (Removendo Duplicatas):** Receba uma lista com nomes repetidos e insira-os em um `Set` para remover as duplicatas.
 - [ ] **26. HashMap (Chave-Valor):** Crie um dicionário inglês-português usando `Map<String, String>`.
 - [ ] **27. Iterando em Mapas:** Imprima todas as chaves e valores do mapa anterior usando `Map.Entry` ou `forEach`.
