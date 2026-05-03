@@ -11,8 +11,8 @@ public class App {
         mapa.put("Pineapple", "Abacaxi");
         mapa.put("Melon", "Melancia");
 
-        mapa.forEach((ingles, portugues) -> {
-            System.out.println("Inglês: " + ingles + " | Português: " + portugues);
-        });
+        for(Map.Entry<String, String> entry : mapa.entrySet()){
+            System.out.println("Chave: " + entry.getKey() + " | Valor: " + entry.getValue());
+        }
     }
 }

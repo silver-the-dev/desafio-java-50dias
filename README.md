@@ -42,7 +42,7 @@
 - [x] **24. Manipulando Listas:** Crie um `ArrayList` de nomes. Adicione, remova, verifique se um nome existe e imprima todos com um laço `for-each`.
 - [x] **25. HashSet (Removendo Duplicatas):** Receba uma lista com nomes repetidos e insira-os em um `Set` para remover as duplicatas.
 - [x] **26. HashMap (Chave-Valor):** Crie um dicionário inglês-português usando `Map<String, String>`.
-- [ ] **27. Iterando em Mapas:** Imprima todas as chaves e valores do mapa anterior usando `Map.Entry` ou `forEach`.
+- [x] **27. Iterando em Mapas:** Imprima todas as chaves e valores do mapa anterior usando `Map.Entry` ou `forEach`.
 - [ ] **28. Contagem de Palavras:** Receba um texto longo e use um `HashMap` para contar quantas vezes cada palavra aparece.
 - [ ] **29. Comparable:** Faça a classe `Produto` implementar `Comparable`. Ordene uma lista de produtos alfabeticamente usando `Collections.sort()`.
 - [ ] **30. Comparator:** Crie um `Comparator` para ordenar a mesma lista de produtos, mas agora pelo Preço (do menor para o maior).
