@@ -1,8 +1,8 @@
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        HashSet<String> list = new HashSet<>();
+        LinkedHashSet<String> list = new LinkedHashSet<>();
 
         list.add("Beringela");
         list.add("Maçã");
