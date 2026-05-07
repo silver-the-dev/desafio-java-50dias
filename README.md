@@ -46,8 +46,8 @@
 - [x] **28. Contagem de Palavras:** Receba um texto longo e use um `HashMap` para contar quantas vezes cada palavra aparece.
 - [x] **29. Comparable:** Faça a classe `Produto` implementar `Comparable`. Ordene uma lista de produtos alfabeticamente usando `Collections.sort()`.
 - [x] **30. Comparator:** Crie um `Comparator` para ordenar a mesma lista de produtos, mas agora pelo Preço (do menor para o maior).
-- [ ] **31. Generics Básico:** Crie uma classe `Caixa<T>` que pode guardar qualquer tipo de objeto e depois retorná-lo.
-- [ ] **32. Métodos Genéricos:** Crie um método que recebe uma `List<T>` e imprime todos os seus elementos.
+- [x] **31. Generics Básico:** Crie uma classe `Caixa<T>` que pode guardar qualquer tipo de objeto e depois retorná-lo.
+- [x] **32. Métodos Genéricos:** Crie um método que recebe uma `List<T>` e imprime todos os seus elementos.
 - [ ] **33. Fila e Pilha:** Brinque com `Queue` (LinkedList) simulando uma fila de banco, e `Stack` simulando o botão "Desfazer" de um editor de texto.
 
 ## 🚀 Módulo 6: Java 8+ (Streams, Lambdas e Optional - O "Padrão" Spring)
