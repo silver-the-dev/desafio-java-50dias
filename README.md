@@ -53,7 +53,7 @@
 ## 🚀 Módulo 6: Java 8+ (Streams, Lambdas e Optional - O "Padrão" Spring)
 
 - [x] **34. Lambda Básico:** Use `lista.forEach()` com uma função lambda para imprimir o nome de todos os clientes de uma lista.
-- [ ] **35. Stream - Filter:** Dada uma lista de números, crie uma nova lista contendo apenas os pares usando `stream().filter()`.
+- [x] **35. Stream - Filter:** Dada uma lista de números, crie uma nova lista contendo apenas os pares usando `stream().filter()`.
 - [ ] **36. Stream - Map:** Dada uma lista de objetos `Aluno`, use `stream().map()` para extrair apenas os nomes (String) e colocar em uma nova lista.
 - [ ] **37. Stream - Reduce:** Some o valor de todos os salários de uma lista de funcionários usando `reduce()`.
 - [ ] **38. Stream - GroupingBy:** Agrupe uma lista de pessoas pelo estado civil usando `Collectors.groupingBy()`.
