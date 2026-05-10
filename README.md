@@ -48,11 +48,11 @@
 - [x] **30. Comparator:** Crie um `Comparator` para ordenar a mesma lista de produtos, mas agora pelo Preço (do menor para o maior).
 - [x] **31. Generics Básico:** Crie uma classe `Caixa<T>` que pode guardar qualquer tipo de objeto e depois retorná-lo.
 - [x] **32. Métodos Genéricos:** Crie um método que recebe uma `List<T>` e imprime todos os seus elementos.
-- [ ] **33. Fila e Pilha:** Brinque com `Queue` (LinkedList) simulando uma fila de banco, e `Stack` simulando o botão "Desfazer" de um editor de texto.
+- [x] **33. Fila e Pilha:** Brinque com `Queue` (LinkedList) simulando uma fila de banco, e `Stack` simulando o botão "Desfazer" de um editor de texto.
 
 ## 🚀 Módulo 6: Java 8+ (Streams, Lambdas e Optional - O "Padrão" Spring)
 
-- [ ] **34. Lambda Básico:** Use `lista.forEach()` com uma função lambda para imprimir o nome de todos os clientes de uma lista.
+- [x] **34. Lambda Básico:** Use `lista.forEach()` com uma função lambda para imprimir o nome de todos os clientes de uma lista.
 - [ ] **35. Stream - Filter:** Dada uma lista de números, crie uma nova lista contendo apenas os pares usando `stream().filter()`.
 - [ ] **36. Stream - Map:** Dada uma lista de objetos `Aluno`, use `stream().map()` para extrair apenas os nomes (String) e colocar em uma nova lista.
 - [ ] **37. Stream - Reduce:** Some o valor de todos os salários de uma lista de funcionários usando `reduce()`.
