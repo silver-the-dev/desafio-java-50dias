@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="34-lambda-basico/src"/>
+	<classpathentry kind="src" path="35-stream-filter/src"/>
+	<classpathentry kind="src" path="36-stream-map/src"/>
+	<classpathentry kind="output" path="34-lambda-basico/bin"/>
+</classpath>
