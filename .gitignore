@@ -2,3 +2,4 @@ bin/
 /**/README.md
 .vscode/
 !/README.md
+.DS_Store
