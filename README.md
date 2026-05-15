@@ -61,7 +61,7 @@
 - [x] **40. Formatação de Datas:** Formate um `LocalDateTime` para o padrão brasileiro (`dd/MM/yyyy HH:mm`) usando `DateTimeFormatter`.
 - [x] **41. Introdução ao Optional:** Crie um método `buscarCliente(id)` que retorna um `Optional<Cliente>`.
 - [x] **42. Trabalhando com Optional:** Chame o método anterior e use `.ifPresent()` para imprimir o nome, e `.orElseThrow()` para lançar erro se não achar.
-- [ ] **43. Records (Java 14+):** Crie um `record ClienteDTO(String nome, String email)` e veja como ele cria getters, toString e equals automaticamente.
+- [x] **43. Records (Java 14+):** Crie um `record ClienteDTO(String nome, String email)` e veja como ele cria getters, toString e equals automaticamente.
 
 ## 🌐 Módulo 7: Preparação Direta para o Spring Boot
 
