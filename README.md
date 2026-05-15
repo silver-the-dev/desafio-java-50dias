@@ -56,8 +56,8 @@
 - [x] **35. Stream - Filter:** Dada uma lista de números, crie uma nova lista contendo apenas os pares usando `stream().filter()`.
 - [x] **36. Stream - Map:** Dada uma lista de objetos `Aluno`, use `stream().map()` para extrair apenas os nomes (String) e colocar em uma nova lista.
 - [x] **37. Stream - Reduce:** Some o valor de todos os salários de uma lista de funcionários usando `reduce()`.
-- [ ] **38. Stream - GroupingBy:** Agrupe uma lista de pessoas pelo estado civil usando `Collectors.groupingBy()`.
-- [ ] **39. API de Datas (LocalDate):** Crie um programa que calcule a diferença em dias entre a data de hoje e a data do seu nascimento.
+- [x] **38. Stream - GroupingBy:** Agrupe uma lista de pessoas pelo estado civil usando `Collectors.groupingBy()`.
+- [x] **39. API de Datas (LocalDate):** Crie um programa que calcule a diferença em dias entre a data de hoje e a data do seu nascimento.
 - [ ] **40. Formatação de Datas:** Formate um `LocalDateTime` para o padrão brasileiro (`dd/MM/yyyy HH:mm`) usando `DateTimeFormatter`.
 - [ ] **41. Introdução ao Optional:** Crie um método `buscarCliente(id)` que retorna um `Optional<Cliente>`.
 - [ ] **42. Trabalhando com Optional:** Chame o método anterior e use `.ifPresent()` para imprimir o nome, e `.orElseThrow()` para lançar erro se não achar.
