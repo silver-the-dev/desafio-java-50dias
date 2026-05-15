@@ -59,7 +59,7 @@
 - [x] **38. Stream - GroupingBy:** Agrupe uma lista de pessoas pelo estado civil usando `Collectors.groupingBy()`.
 - [x] **39. API de Datas (LocalDate):** Crie um programa que calcule a diferença em dias entre a data de hoje e a data do seu nascimento.
 - [x] **40. Formatação de Datas:** Formate um `LocalDateTime` para o padrão brasileiro (`dd/MM/yyyy HH:mm`) usando `DateTimeFormatter`.
-- [ ] **41. Introdução ao Optional:** Crie um método `buscarCliente(id)` que retorna um `Optional<Cliente>`.
+- [x] **41. Introdução ao Optional:** Crie um método `buscarCliente(id)` que retorna um `Optional<Cliente>`.
 - [ ] **42. Trabalhando com Optional:** Chame o método anterior e use `.ifPresent()` para imprimir o nome, e `.orElseThrow()` para lançar erro se não achar.
 - [ ] **43. Records (Java 14+):** Crie um `record ClienteDTO(String nome, String email)` e veja como ele cria getters, toString e equals automaticamente.
 
