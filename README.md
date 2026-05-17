@@ -65,7 +65,7 @@
 
 ## 🌐 Módulo 7: Preparação Direta para o Spring Boot
 
-- [ ] **44. Simulando Injeção de Dependências:** Crie um `EmailService` e um `ClienteController`. Faça o Controller receber o Service pelo construtor (Injeção via Construtor).
+- [x] **44. Simulando Injeção de Dependências:** Crie um `EmailService` e um `ClienteController`. Faça o Controller receber o Service pelo construtor (Injeção via Construtor).
 - [ ] **45. Arquivos de Propriedades:** Crie um arquivo `config.properties`. Escreva um código Java que leia valores (ex: `db.url`) desse arquivo (muito comum no Spring).
 - [ ] **46. Manipulação de Arquivos (NIO):** Crie um script que salva o nome de 5 usuários em um arquivo `.txt` e depois lê e imprime no console.
 - [ ] **47. JSON Básico:** Adicione a biblioteca Jackson ou Gson no projeto (se usar Maven/Gradle) e converta um objeto `Usuario` em uma String JSON.
