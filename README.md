@@ -67,7 +67,7 @@
 
 - [x] **44. Simulando Injeção de Dependências:** Crie um `EmailService` e um `ClienteController`. Faça o Controller receber o Service pelo construtor (Injeção via Construtor).
 - [x] **45. Arquivos de Propriedades:** Crie um arquivo `config.properties`. Escreva um código Java que leia valores (ex: `db.url`) desse arquivo (muito comum no Spring).
-- [ ] **46. Manipulação de Arquivos (NIO):** Crie um script que salva o nome de 5 usuários em um arquivo `.txt` e depois lê e imprime no console.
+- [x] **46. Manipulação de Arquivos (NIO):** Crie um script que salva o nome de 5 usuários em um arquivo `.txt` e depois lê e imprime no console.
 - [ ] **47. JSON Básico:** Adicione a biblioteca Jackson ou Gson no projeto (se usar Maven/Gradle) e converta um objeto `Usuario` em uma String JSON.
 - [ ] **48. Projeto Final (CRUD em Memória):** Crie uma aplicação console de um Banco. Deve ter as classes `ContaController`, `ContaService`, `ContaRepository` (usando Listas). Implemente criar conta, buscar conta, depositar, sacar e listar todas, chamando as camadas em ordem (Controller -> Service -> Repository).
 - [ ] **49. Persistência Real com JDBC:** Pegue o Projeto Final (o CRUD 50) e substitua o armazenamento em List por um banco de dados relacional de verdade.
