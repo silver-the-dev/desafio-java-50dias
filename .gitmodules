@@ -1,0 +1,3 @@
+[submodule "sistema-de-gestao-biblioteca"]
+	path = sistema-de-gestao-biblioteca
+	url = https://github.com/silver-the-dev/sistema-de-gestao-biblioteca.git
